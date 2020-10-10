@@ -19,3 +19,6 @@ run_bash:
 run_app:
 		docker run -it --rm  \
 			xdanny322/webapp:latest
+
+# Getting into running container
+#   docker exec -it f835717dbd82 /bin/bash
