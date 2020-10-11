@@ -27,7 +27,7 @@ def echo():
 
 
 if __name__ == "__main__":
-    version = "1"  # Place Holder
+    version = "__version__"  # This gets replaced at build time
     port = os.getenv("FLASK_APP_PORT", "80")
     app.debug = True
     app.run(host="0.0.0.0", port=int(port))
